@@ -37,3 +37,5 @@
 # Ignore the .txt files used for creating the PlantUML Diagrams
 *.txt
 
+# Ignore .vscode folder
+.vscode/
