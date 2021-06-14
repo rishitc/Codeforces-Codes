@@ -10,8 +10,6 @@ int main()
 
     std::cin >> matches_count;
 
-
-    
     /*
     If Anton won more games than Danik, then the value of winner_tracker > 0
     If Danik won more games than Anton, then the value of winner_tracker < 0
@@ -24,14 +22,14 @@ int main()
     while (matches_count--)
     {
         std::cin >> match_winner;
-        switch(match_winner)
+        switch (match_winner)
         {
-            case 'A':
-                ++winner_tracker;
-                break;
-            case 'D':
-                --winner_tracker;
-                break;
+        case 'A':
+            ++winner_tracker;
+            break;
+        case 'D':
+            --winner_tracker;
+            break;
         }
     }
 

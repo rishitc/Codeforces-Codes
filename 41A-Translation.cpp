@@ -15,7 +15,7 @@ int main()
 
     std::reverse(std::begin(source), std::end(source));
 
-    if(source == target)
+    if (source == target)
         std::cout << "YES\n";
     else
         std::cout << "NO\n";

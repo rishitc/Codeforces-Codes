@@ -25,7 +25,8 @@ int main()
 
     for (int i = k_num_of_unique_coin_values - 1; i > -1; --i)
     {
-        while (coins_count[i]) {
+        while (coins_count[i])
+        {
             my_sum += (i + 1);
             --coins_count[i];
             ++my_count;
@@ -37,7 +38,6 @@ int main()
             }
         }
     }
-
 
     return 0;
 }
