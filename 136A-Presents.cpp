@@ -1,3 +1,13 @@
+/**
+ * @file 136A-Presents.cpp
+ * @author Rishit Chaudhary (@rishitc)
+ * @version 1.0
+ * @date 2021-06-23
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include <iostream>
 
 int main()
@@ -15,7 +25,7 @@ int main()
     {
         std::cin >> p;
 
-        ans[p - 1] = i;  // Zero index correction for p
+        ans[p - 1] = i; // Zero index correction for p
     }
 
     for (int i = 0; i < n; ++i)
