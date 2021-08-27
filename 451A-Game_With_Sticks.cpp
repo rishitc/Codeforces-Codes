@@ -15,7 +15,7 @@ int main()
     int m;
     std::cin >> n >> m;
 
-    int min_sticks = std::min(n, m);
+    const int min_sticks = std::min(n, m);
 
     if (min_sticks % 2 == 0)
     {
